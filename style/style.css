@@ -198,6 +198,7 @@ section{
 /* Contact Styles */
 .contact{
     background-color: #FFF8F3;
+    
     display: flex;
     gap: 100px;
     padding: 130px 200px;
