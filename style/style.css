@@ -267,13 +267,29 @@ section{
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
+    .header{
+        background-image: none;
+    }
+    
     .skills-container, .about-info-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
-    .resume-content, .contact{
+    .resume-content, .contact, .banner, nav{
         flex-direction: column;
+    }
+    .banner{
+        margin: 0 70px;
+    }
+    nav{
+        
+        padding: 30px 60px;
+    }
+    .banner-img{
+        width: 100%;
+        height: 676px;
+    
     }
     .contact input[type="text"], input[type="email"], textarea{
         margin-bottom: 24px;
