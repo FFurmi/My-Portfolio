@@ -267,9 +267,6 @@ section{
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
-    .header{
-        background-image: none;
-    }
     
     .skills-container, .about-info-container{
         display: grid;
