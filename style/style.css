@@ -219,13 +219,45 @@ section{
 }
 
 @media screen and (max-width:576px){
-    .skills-container, .resume-content,  .contact, .about-info-container{
+    .header{
+        background-image: none;
+    }
+    .banner, .skills-container, .resume-content,  .contact, .about-info-container, nav{
         flex-direction: column;
         
     }
-    .contact, .about{
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .banner-subtitle, .nav-title{
+        font-weight: 600;
+        font-size: 5vw;
+    }
+    .banner-title{
+        font-size: 6vw;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .banner-img{
+        width: 80%;
+        height: 676px;
+    
+    }
+    .banner-description{
+        font-size: 16px;
+    }
+    .btn-contact{
+        margin-top: 20px;
+    }
+    .contact, .about, nav {
         padding: 80px 50px;
     }
+    
     .what-i-do, .resume, .about{
         margin: 130px 20px;
     }
