@@ -231,6 +231,10 @@ section{
         gap: 20px;
         align-items: start;
     }
+    nav ul, nav li{
+        margin-left: 2px;
+        padding-left: 0;
+    }
     .banner{
         margin: 0 10px;
     }
